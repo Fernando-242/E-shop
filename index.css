@@ -1,0 +1,892 @@
+header{
+    background: #0D405F;
+    height: 50px;
+    position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 20;
+        box-shadow: 0 0 10px 0 gray;
+
+}
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background: rgb(29, 29, 29);
+    height: 60px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+.li1{
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.li2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-top: 5px;
+    color: black;
+    cursor: pointer;
+    transform: scale(10px);
+
+}
+.li3, .li4, .li5, .li6{
+    font-size: 15px;
+    font-family: Arial;
+    margin-left: 45px;
+    margin-top: 5px;
+    cursor: pointer;
+    transform: scale(10px);
+    font-weight: bold;
+    
+}
+.li7{
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-top: 5px;
+    text-indent: 40px;
+    
+
+}
+.li8{
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 5px;
+
+}
+.li9{
+    width: 100px;
+    background: orange;
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 30px;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+svg{
+    margin-right:15px ;
+    color: white;
+    cursor: pointer;
+    transform: scale(10px);
+}
+.section1{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(4,150px);
+    gap: 1rem;
+}
+
+.aa{
+ display: flex;
+ z-index: 20;
+ background: rgb(29, 29, 29);
+ margin-top: 48px;
+}
+.a1{
+    display: flex;
+}
+.d1{
+    grid-column: 1/span 6;
+    grid-row: 1/span 2;
+    background-image: url(clark-street-mercantile-P3pI6xzovu0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    margin-top: 5px;
+    
+}
+.i1{
+    width: 600px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 360px;
+    border: none;
+    text-align: center;
+    border: 1px solid rgb(29, 29, 29) ;
+}
+.y1{
+    color: orange;
+    margin-left: 900px;
+    position: absolute;
+    top: 195px;
+    
+
+}
+.p1{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.p2{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.p6{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    margin-left: 150px;
+    
+}
+.p7{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+   
+}
+.p9{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-left: 40px;
+}
+.p10{
+    width: 60px;
+    height: 25px;
+    border: 1px solid rgb(29, 29, 29);
+    text-align: center;
+    font-size: 15px;
+    margin-left: 40px;
+    font-family: sans-serif;
+    align-content: center;
+    cursor: pointer;
+    transform: scale(10px);
+}
+.p11{
+    font-size: 19px;
+    margin-top: 18px;
+}
+.p12{
+    width: 150px;
+    height: 25px;
+    border: 1px solid rgb(29, 29, 29);
+    text-align: center;
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: sans-serif;
+    align-content: center;
+    cursor: pointer;
+    transform: scale(10px);
+}
+.p13{
+    width: 200px;
+    height: 25px;
+    border: 1px solid rgb(29, 29, 29);
+    text-align: center;
+    font-size: 15px;
+    margin-left: 15px;
+    font-family: sans-serif;
+    align-content: center;
+    cursor: pointer;
+    transform: scale(10px);
+}
+.p14{
+    width: 100px;
+    height: 25px;
+    border: 1px solid rgb(29, 29, 29);
+    text-align: center;
+    font-size: 15px;
+    margin-left: 40px;
+    font-family: sans-serif;
+    align-content: center;
+    cursor: pointer;
+    transform: scale(10px);
+}
+.p15{
+    width: 100px;
+    height: 25px;
+    border: 1px solid rgb(29, 29, 29);
+    text-align: center;
+    font-size: 15px;
+    margin-left: 15px;
+    font-family: sans-serif;
+    align-content: center;
+    cursor: pointer;
+    transform: scale(10px);
+}
+.p16{
+    width: 100px;
+    height: 25px;
+    border: 1px solid rgb(29, 29, 29);
+    text-align: center;
+    font-size: 15px;
+    margin-left: 15px;
+    font-family: sans-serif;
+    align-content: center;
+    cursor: pointer;
+    transform: scale(10px);
+}
+select{
+    background: none;
+    border: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+}
+option{
+    border: orange;
+    color: black;
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;;
+}
+.section2{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(10,150px);
+    gap: 20px;
+    flex-direction: row;
+}
+.d2{
+    grid-column: 1/span 6;
+    grid-row: 2/span 100;
+    background:white;
+    margin-top: 150px;
+}
+.d3{
+    grid-column: 1/span 6;
+    grid-row: 4/span 8;
+    display: flex;
+    
+}
+.d4{
+    grid-column: 1/span 6;
+    grid-row: 12/span 14;
+    display: flex;
+    
+}
+.d5{
+    grid-column: 1/span 6;
+    grid-row: 30/span 5;
+}
+.dd1{
+    text-align: center;
+    align-content: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.dd2{
+    width: 150px;
+    height: 300px;
+    background: orange;
+    margin-left: 150px;
+    margin-top: 190px;
+    margin-bottom: 150px;
+}
+.dd3{
+    width: 270px;
+    height: 500px;
+    background: rgb(29, 29, 29);
+    margin-left: 0px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    
+}
+#dd3{
+    font-size: 60px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 200px;
+}
+.dd4{
+    width: 450px;
+    height: 500px;
+    margin-left: 50px;
+}
+.dd5{
+    font-size: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 120px;
+}
+.dd6{
+    font-size: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+}
+.d6{
+    grid-column: 1/span 6;
+    grid-row: 40/span 2;
+    display: flex;
+    background: rgb(248, 248, 248);
+    
+
+}
+.d7{
+    grid-column: 1/span 6;
+    grid-row: 42/span 10;
+}
+.d8{
+
+    grid-column: 1/span 6;
+    grid-row: 60/span 10;
+    background: rgb(212, 212, 212);
+    display: flex;
+}
+.d9{
+    grid-column: 1/span 6;
+    grid-row: 70/span 5;
+    display: flex;
+}
+#d9{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 590px;
+}
+.d10{
+    grid-column: 1/span 6;
+    grid-row: 74/span 30;
+}
+.d11{
+    grid-column: 4/span 3;
+    grid-row: 73/span 30;
+    background: orange;
+    border-radius: 100%;
+    margin-left: 150px;
+    margin-right: 110px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#d10{
+    border: 1px solid rgb(204, 204, 204);
+    width: 530px;
+    height: 50px;
+    margin-top: 90px;
+    margin-left: 150px;
+    border-radius: 5px;
+    color:rgb(204, 204, 204) ;
+    
+}
+#d11{
+    border: 1px solid rgb(204, 204, 204);
+    width: 530px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 5px;
+    color:rgb(204, 204, 204) ;
+}
+#d12{
+    border: 1px solid rgb(204, 204, 204);
+    width: 530px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 5px;
+    color:rgb(204, 204, 204) ;
+}
+#d13{
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    background: none;
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.s1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.s2{
+   background: white;
+   border-radius: 10px;
+   width: 200px;
+   height: 200px;
+   position: absolute;
+   top: 2500px;
+   margin-left: 50px;
+   box-shadow: 0 0 10px 0 gray;
+   cursor: pointer;
+    transform: scale(10px);
+    transition: 400ms;
+}
+.s3{
+    background: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 2500px;
+    margin-left: 320px;
+    box-shadow: 0 0 10px 0 gray;
+    cursor: pointer;
+    transform: scale(10px);
+    transition: 400ms;
+ }
+ .s4{
+    background: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 2500px;
+    margin-left: 570px;
+    box-shadow: 0 0 10px 0 gray;
+    cursor: pointer;
+    transform: scale(10px);
+    transition: 400ms;
+ }
+ .s5{
+    background: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 2500px;
+    margin-left: 820px;
+    box-shadow: 0 0 10px 0 gray;
+    cursor: pointer;
+    transform: scale(10px);
+    transition: 400ms;
+ }
+ .s6{
+    background: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 2500px;
+    margin-left: 1070px;
+    box-shadow: 0 0 10px 0 gray;
+    cursor: pointer;
+    transform: scale(10px);
+    transition: 400ms;
+ }
+.art1{
+    width: 290px;
+    height: 400px;
+    
+    margin-left: 40px;
+    border-top: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 400ms;
+}
+.art2{
+    width: 290px;
+    height: 400px;
+    
+    border-top: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 400ms;
+}
+.art3{
+    width: 290px;
+    height: 400px;
+    
+    border-top: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 400ms;
+}
+.art4{
+    width: 290px;
+    height: 400px;
+  
+    border-top: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 400ms;
+}
+.image1{
+    width: 160px;
+    height: 160px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 60px;
+    margin-top: 12px;
+    background: none;
+
+}
+#image2{
+    width: 165px;
+    height: 165px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+.image2{
+    width: 180px;
+    height: 180px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+.image3{
+    width: 160px;
+    height: 160px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 50px;
+    margin-top: 25px;
+
+}
+#image4{
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.image4{
+    width: 160px;
+    height: 160px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+.z{
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+#det1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 55px;
+
+}
+.det1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+.det2{
+    display: flex;
+}
+.det3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 25px;
+    color: gray;
+}
+.color1{
+    width: 15px;
+    height: 15px;
+    background: rgb(1, 220, 228);
+    border: none;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 200ms;
+    
+
+}
+.color2{
+    width: 15px;
+    height: 15px;
+    background: red;
+    border: none;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 200ms;
+   
+}
+.color3{
+    width: 15px;
+    height: 15px;
+    background: gray;
+    border: none;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 200ms;
+   
+}
+.color4{
+    width: 15px;
+    height: 15px;
+    background: yellow;
+    border: none;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 200ms;
+   
+}
+.color5{
+    width: 15px;
+    height: 15px;
+    background: rgb(156, 17, 138);
+    border: none;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 200ms;
+   
+}
+.color6{
+    width: 15px;
+    height: 15px;
+    background: pink;
+    border: none;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 200ms;
+   
+}
+.but1{
+    background: none;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: rgb(29, 29, 29);
+    border: 1px solid rgb(29, 29, 29);
+    cursor: pointer;
+    transform: scale(10px);
+}
+.z{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 25px;
+    cursor: pointer;
+    transform: scale(10px);
+}
+.s2:hover{
+    background: orange;
+    color: white;
+    cursor: pointer;
+    transform: scale(10px);
+}
+.s3:hover{
+    background: orange;
+    color: white;
+    cursor: pointer;
+    transform: scale(10px);
+}
+.s4:hover{
+    background: orange;
+    color: white;
+    cursor: pointer;
+    transform: scale(10px);
+}
+.s5:hover{
+    background: orange;
+    color: white;
+    cursor: pointer;
+    transform: scale(10px);
+}
+.s6:hover{
+    background: orange;
+    color: white;
+    cursor: pointer;
+    transform: scale(10px);
+}
+.p10:hover{
+    background: orange;
+    color: white;
+    cursor: pointer;
+    transform: scale(10px);
+    border: none;
+}
+.p12:hover{
+    background: orange;
+    color: white;
+    cursor: pointer;
+    transform: scale(10px);
+    border: none;
+
+}
+.p13:hover{
+    background: orange;
+    color: white;
+    cursor: pointer;
+    transform: scale(10px);
+    border: none;
+}
+.p14:hover{
+    background: orange;
+    color: white;
+    cursor: pointer;
+    transform: scale(10px);
+    border: none;
+}
+.p15:hover{
+    background: orange;
+    color: white;
+    cursor: pointer;
+    transform: scale(10px);
+    border: none;
+}
+.p16:hover{
+    background: orange;
+    color: white;
+    cursor: pointer;
+    transform: scale(10px);
+    border: none;
+}
+.but1:hover{
+    background: orange;
+    color: white;
+    cursor: pointer;
+    transform: scale(10px);
+    border: none;
+}
+.z1{
+    width: 200px;
+    height: 200px;
+}
+ .art1:hover .art2:hover .art3:hover .art4:hover{
+    transform: scale(1.2,1.2);
+}
+.art1:not(:hover),.art2:not(:hover),.art3:not(:hover),.art4:not(:hover){
+   
+    transform: scale(0.9, 0.9);
+
+}
+.color1:hover .color2:hover .color3:hover .color4:hover .color5:hover .color6:hover{
+    transform: scale(1.2,1.2);
+}
+.color1:not(:hover),.color2:not(:hover),.color3:not(:hover),.color4:not(:hover),.color5:not(:hover),.color6:not(:hover){
+   
+    transform: scale(0.9, 0.9);
+
+}
+.svg:hover{
+    background: orange;
+    color: orange;
+    cursor: pointer;
+    border: 3px solid;
+    transform: scale(10px);
+}
+.li2:hover ,.li3:hover, .li4:hover, .li5:hover ,#d13:hover {
+    background: none;
+    border-top: none;
+    border-bottom: 4px solid orange;
+    color: orange;
+    cursor: pointer;
+    transform: scale(10px);
+}
+#d13:hover {
+    background: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transform: scale(10px);
+}
+
+footer{
+    height: 200px;
+    background: rgb(29, 29, 29);
+    margin-top: 20px;
+}
+.ff{
+    display: flex;
+}
+.ff1{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+.ff2{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.ff3{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.ff4{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    margin-left: 200px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.s2:hover .s3:hover .s4:hover .s5:hover .s6:hover{
+    transform: scale(1.2,1.2);
+}
+.s2:not(:hover),.s3:not(:hover),.s4:not(:hover),.s5:not(:hover),.s6:not(:hover){
+   
+    transform: scale(0.9, 0.9);
+
+}
+
